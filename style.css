@@ -1,0 +1,149 @@
+.main {
+    font-family: "Chivo", sans-serif;
+    background-color: var(--blue-950);
+    padding: 13.5rem 0rem 15.3rem 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .podcast-overview {
+    width: 128rem;
+    height: 65.4rem;
+    position: relative;
+}
+
+/* Estilizando caixa de texto podcast */
+
+.main .podcast-overview .box-podcast {
+    width: 73.6rem;
+    height: 63.4rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.main .podcast-overview .box-podcast .box-logo-podcast {
+    height: 15.6rem;
+}
+
+.main .podcast-overview .box-podcast .publish-podcast {
+    height: 49.4rem;
+    background-color: var(--blue-950);
+    padding-top: 8.8rem;
+}
+
+.main .podcast-overview .box-podcast .publish-podcast .title-publish {
+    font-size: 4.8rem;
+    color: var(--green-select);
+    font-weight: 100;
+}
+
+.main
+    .podcast-overview
+    .box-podcast
+    .publish-podcast
+    .title-publish
+    .everywhere {
+    color: var(--white);
+}
+
+.main .podcast-overview .box-podcast .publish-podcast .text-podcast {
+    color: var(--white);
+    font-size: 1.8rem;
+    margin-top: 2.4rem;
+    width: 44.8rem;
+    line-height: 2.5rem;
+}
+
+.main .podcast-overview .box-podcast .publish-podcast .form {
+    margin-top: 4rem;
+    width: 44.8rem;
+    height: 5.2rem;
+    position: relative;
+}
+
+.main .podcast-overview .box-podcast .publish-podcast .form .email {
+    background-color: var(--blue-900);
+    border-radius: 4rem;
+    width: 44.8rem;
+    height: 5.2rem;
+    border: none;
+    padding: 2.8rem 2.3rem;
+    font-size: 1.6rem;
+    color: var(--white);
+}
+
+.main
+    .podcast-overview
+    .box-podcast
+    .publish-podcast
+    .form
+    .email::placeholder {
+    font-size: 1.6rem;
+    color: var(--white);
+}
+
+.main .podcast-overview .box-podcast .publish-podcast .form .btn-submit {
+    position: absolute;
+    background-color: var(--green);
+    border-radius: 4rem;
+    right: 0.8%;
+    top: 8%;
+    width: 17.3rem;
+    height: 4.8rem;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.main .podcast-overview .box-podcast .publish-podcast .form .btn-submit:hover {
+    transition: ease-in-out 0.5s;
+    background-color: var(--green-select);
+}
+
+.main .podcast-overview .box-podcast .publish-podcast .network {
+    display: flex;
+    column-gap: 4rem;
+    margin-top: 7.5rem;
+}
+
+.main .podcast-overview .box-podcast .publish-podcast .network .google {
+    height: 1.8rem;
+    margin-top: 0.6rem;
+}
+
+.main .podcast-overview .box-podcast .publish-podcast .network .pocket {
+    height: 2.5rem;
+}
+
+/* Fim */
+.main .podcast-overview .box-img-podcast .img-announcer {
+    position: absolute;
+    right: 0;
+}
+
+.main .podcast-overview .box-img-podcast .shape {
+    position: absolute;
+    right: 0;
+    top: 94.5%;
+    z-index: 3;
+}
+
+.main .podcast-overview .box-img-podcast::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 89.6rem;
+    height: 65.4rem;
+    background-color: rgba(84, 230, 175, 0.4);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.alert-email {
+    font-size: 1.4rem;
+    color: var(--red);
+    margin-top: 1.3rem;
+    margin-left: 3rem;
+}
